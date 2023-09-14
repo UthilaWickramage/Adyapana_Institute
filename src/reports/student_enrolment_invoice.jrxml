@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.19.1.final using JasperReports Library version 6.19.1-867c00bf88cd4d784d404379d6c05e1b419e8a4c  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="student_enrolment_invoice" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="dc039ab2-ecba-4ef6-a706-e84bfef8edf0">
+	<parameter name="Parameter1" class="java.lang.String"/>
+	<parameter name="Parameter2" class="java.lang.String"/>
+	<parameter name="Parameter3" class="java.lang.String"/>
+	<parameter name="Parameter4" class="java.lang.String"/>
+	<parameter name="Parameter5" class="java.lang.String"/>
+	<parameter name="Parameter6" class="java.lang.String"/>
+	<parameter name="Parameter7" class="java.lang.String"/>
+	<parameter name="Parameter8" class="java.lang.String"/>
+	<parameter name="Parameter9" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="364" splitType="Stretch">
+			<staticText>
+				<reportElement x="1" y="0" width="800" height="30" uuid="942fc36b-19e5-4c6c-b15e-ed36363ceae4"/>
+				<textElement textAlignment="Center">
+					<font fontName="Elephant" size="22" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Adyapana Institute]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="30" width="800" height="30" uuid="db5bc59b-1dbe-4cee-8a9f-181c13babfa8"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="None">
+					<font fontName="Carlito" size="16" isBold="false" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Education home for after advanced level students]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="94" width="800" height="30" uuid="5c0d070c-5fb0-4741-b491-e1867886985b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tel No: 0113485865 / 0115483959]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="60" width="800" height="30" uuid="747ec443-ec78-422e-89aa-16c17a928bb6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[3rd Block Street, Colombo 2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="1" y="124" width="800" height="26" forecolor="#FFFFFF" backcolor="#030303" uuid="9264ca9d-1a80-43aa-873c-872fa05f714a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Student Monthly Enrolment Invoice]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="400" y="220" width="400" height="69" uuid="ab5ee421-1139-4422-bc37-1ff592712f10"/>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="0" y="220" width="400" height="69" uuid="98a8552d-3672-446d-a0e9-fe3889079c42"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="410" y="220" width="100" height="30" uuid="a92ce27e-a859-459e-b0cf-bf02252792a7"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="13"/>
+				</textElement>
+				<text><![CDATA[Teacher Name:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="410" y="250" width="100" height="30" uuid="6f2da4c8-d70d-4a82-90b1-b6bc6c7adf14"/>
+				<textElement verticalAlignment="Middle">
+					<font size="13"/>
+				</textElement>
+				<text><![CDATA[Subject:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="160" width="120" height="30" uuid="852565f3-f819-4db6-9c3d-afc6a411291e"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="13"/>
+				</textElement>
+				<text><![CDATA[Class:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="250" width="100" height="30" uuid="dfd7bc4b-4c1e-4483-b671-912b2bd4200d"/>
+				<textElement verticalAlignment="Middle">
+					<font size="13"/>
+				</textElement>
+				<text><![CDATA[Student Name:]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="0" y="160" width="800" height="60" uuid="1b565bcd-2171-428b-85fc-327401204afc"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="190" width="120" height="30" uuid="b3147f98-eadc-484f-8317-431cbe4847d5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="13"/>
+				</textElement>
+				<text><![CDATA[Enrollment Month:]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="0" y="289" width="800" height="30" uuid="c60a9f56-fd57-4cac-807b-8994a52e4090"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="220" width="100" height="30" uuid="391c6ff9-4f63-4b86-b2db-cfb49058c33b"/>
+				<textElement verticalAlignment="Middle">
+					<font size="13"/>
+				</textElement>
+				<text><![CDATA[Student Id]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="289" width="100" height="30" uuid="204d5c21-69f4-4ec1-bc23-f5a748cd1d2e"/>
+				<textElement verticalAlignment="Middle">
+					<font size="13"/>
+				</textElement>
+				<text><![CDATA[Total charges:]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="0" y="319" width="800" height="30" uuid="7c07fd3a-a46d-4804-a40d-3ce96fc6d54f"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="319" width="140" height="30" uuid="12c9aff6-5c70-4e70-b891-626a14a2389b"/>
+				<textElement verticalAlignment="Middle">
+					<font size="13"/>
+				</textElement>
+				<text><![CDATA[Student Payment:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="140" y="160" width="110" height="28" uuid="46edbb33-5b6c-426d-b9f7-3873defe0f7f"/>
+				<textElement verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Parameter1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="140" y="190" width="110" height="30" uuid="8aa744fd-f107-44a5-b587-ccac14d9f467"/>
+				<textElement verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Parameter2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="220" width="116" height="30" uuid="bef2bc8a-ca53-40dc-bba5-e0d9f9ab00d6"/>
+				<textElement verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Parameter3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="250" width="116" height="30" uuid="3b6e3357-467c-4dfb-b959-e41153def817"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Parameter4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="510" y="220" width="280" height="30" uuid="e5aebb9c-2701-4113-a364-31773ef9560d"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Parameter5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="510" y="250" width="280" height="30" uuid="1beef137-70c3-493c-a926-ce51688d4f4a"/>
+				<textElement verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Parameter6}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="660" y="289" width="130" height="30" uuid="9d045e1d-223f-4350-bbc4-dc0061ee33bb"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Parameter7}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="660" y="319" width="130" height="30" uuid="7b2d3a52-55d9-433c-8b7f-582dd616647b"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Parameter8}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<summary>
+		<band height="70" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="6" width="800" height="24" uuid="4b06203c-5160-4cf1-98f6-50a8b7b672ee"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None">
+					<font fontName="Carlito" size="13" isBold="false" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[This invoice is valid for one month. The student has to pay for the next month to enter the class]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="550" y="30" width="100" height="30" uuid="c7fb8aef-249d-4670-b35a-66a617386827"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Date & Time:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="650" y="30" width="150" height="30" uuid="68ac5763-944b-4ca4-929c-aac6fb867488"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Parameter9}]]></textFieldExpression>
+			</textField>
+		</band>
+	</summary>
+</jasperReport>
